@@ -1,15 +1,29 @@
-#maze-container {
-    width: 400px;
-    height: 400px;
-    border: 1px solid black;
-    margin: 0 auto;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
 }
-
-#maze-canvas {
-    background-color: #eee;
+button {
+    margin: 0 20px;
+    padding: 10px 20px;
+    background: aquamarine;
+    color: blue;
+    border-radius: 100%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    outline: none;
 }
-
-#message {
+canvas{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.btn{
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    left: 0px;
+    right: 0px;
     text-align: center;
-    font-weight: bold;
 }

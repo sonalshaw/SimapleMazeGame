@@ -1,17 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Maze Game</title>
+    <meta charset="utf-8">
+    <title>Maze Game</title>
     <link rel="stylesheet" href="./css/style.css">
-</head>
 <body>
-    <h1>Maze Game</h1>
-    <div id="maze-container">
-        <canvas id="maze-canvas"></canvas>
-        <p id="message"></p>
+    <canvas id="canvas"></canvas>
+    <div class="btn">
+        <button onclick="left()">LEFT</button>
+        <button onclick="right()">RIGHT</button>
+        <button onclick="up()">UP</button>
+        <button onclick="down()">DOWN</button>
     </div>
-    <script src="./js/script.js"></script>
+<script src="./js/script.js"></script>
 </body>
 </html>
